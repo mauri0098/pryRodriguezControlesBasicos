@@ -41,7 +41,91 @@ namespace pryRodriguezControlesBasicos
 
             }
         }
+
+        private void Asignacion_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chkPicante_CheckedChanged(object sender, EventArgs e)
+        {
             
-               
+            
+
+            
+        }
+
+        private void lblEscribir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdSeleccionar_Click(object sender, EventArgs e)
+        {
+            string textoConcatenar = "";
+
+            if (chkPicante.Checked == true)
+            {
+                lblEscribir.Text = "picante ";
+                textoConcatenar = textoConcatenar + "picante ";
+            }
+
+
+            if (chkMayonesa.Checked == true)
+            {
+                lblEscribir.Text = "Mayonesa "; 
+                textoConcatenar = textoConcatenar + " Mayonesa ";
+            }
+
+
+            
+           
+
+            if (chkMostaza.Checked == true)
+            {
+                lblEscribir.Text = "Mostaza ";
+                textoConcatenar = textoConcatenar  + " Mostaza ";
+
+                //agregar un item al combobox - lista
+
+                cboAdiciona.Items.Add(textoConcatenar);
+
+
+
+
+
+          
+            
+            
+            
+           
+            }
+        } 
+
+       
+          
+
+
+        
+
+        
+      
+
+
+      
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fmrInicio_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
-}
+    
+    
+    
+    
+

@@ -57,7 +57,7 @@
             // lblBienvenidosalSistema
             // 
             this.lblBienvenidosalSistema.AutoSize = true;
-            this.lblBienvenidosalSistema.Location = new System.Drawing.Point(12, 68);
+            this.lblBienvenidosalSistema.Location = new System.Drawing.Point(12, 44);
             this.lblBienvenidosalSistema.Name = "lblBienvenidosalSistema";
             this.lblBienvenidosalSistema.Size = new System.Drawing.Size(116, 13);
             this.lblBienvenidosalSistema.TabIndex = 2;
