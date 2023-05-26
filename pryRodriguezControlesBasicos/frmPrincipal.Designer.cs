@@ -39,7 +39,7 @@
             this.lblEjeX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEjeX.AutoSize = true;
             this.lblEjeX.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEjeX.Location = new System.Drawing.Point(441, 9);
+            this.lblEjeX.Location = new System.Drawing.Point(387, 9);
             this.lblEjeX.Name = "lblEjeX";
             this.lblEjeX.Size = new System.Drawing.Size(24, 24);
             this.lblEjeX.TabIndex = 0;
@@ -51,7 +51,7 @@
             this.lblEjeY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEjeY.AutoSize = true;
             this.lblEjeY.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEjeY.Location = new System.Drawing.Point(441, 53);
+            this.lblEjeY.Location = new System.Drawing.Point(387, 53);
             this.lblEjeY.Name = "lblEjeY";
             this.lblEjeY.Size = new System.Drawing.Size(22, 24);
             this.lblEjeY.TabIndex = 1;
@@ -72,7 +72,7 @@
             // cmdInicio
             // 
             this.cmdInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdInicio.Location = new System.Drawing.Point(136, 115);
+            this.cmdInicio.Location = new System.Drawing.Point(117, 117);
             this.cmdInicio.Name = "cmdInicio";
             this.cmdInicio.Size = new System.Drawing.Size(145, 47);
             this.cmdInicio.TabIndex = 3;
@@ -84,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(479, 270);
+            this.ClientSize = new System.Drawing.Size(425, 270);
             this.Controls.Add(this.cmdInicio);
             this.Controls.Add(this.lblBienvenidos);
             this.Controls.Add(this.lblEjeY);
