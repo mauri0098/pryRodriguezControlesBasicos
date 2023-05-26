@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryRodriguezControlesBasicos
 {
-    public partial class frmTitulodelaVentana : Form
+    public partial class frmPrincipla : Form
     {
-        public frmTitulodelaVentana()
+        public frmPrincipla()
         {
             InitializeComponent();
         }
@@ -37,12 +37,18 @@ namespace pryRodriguezControlesBasicos
 
         private void frmTitulodelaVentana_Click(object sender, EventArgs e)
         {
-         lblBienvenidosalSistema.Visible = true;
+         lblBienvenidos.Visible = true;
         }
 
         private void frmTitulodelaVentana_MouseEnter(object sender, EventArgs e)
         {
-            lblBienvenidosalSistema.Location = new Point(125);
+            lblBienvenidos.Location = new Point(125);
+        }
+
+        private void cmdInicio_Click(object sender, EventArgs e)
+        {
+            fmrInicio frm = new fmrInicio();
+            frm.ShowDialog();
         }
     }
 }
