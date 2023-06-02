@@ -38,7 +38,7 @@
             // 
             this.lblBienvenidos.AutoSize = true;
             this.lblBienvenidos.Font = new System.Drawing.Font("Calibri", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBienvenidos.Location = new System.Drawing.Point(40, 15);
+            this.lblBienvenidos.Location = new System.Drawing.Point(27, 58);
             this.lblBienvenidos.Name = "lblBienvenidos";
             this.lblBienvenidos.Size = new System.Drawing.Size(559, 117);
             this.lblBienvenidos.TabIndex = 3;
@@ -49,9 +49,9 @@
             // cmdInicio
             // 
             this.cmdInicio.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdInicio.Location = new System.Drawing.Point(247, 162);
+            this.cmdInicio.Location = new System.Drawing.Point(167, 188);
             this.cmdInicio.Name = "cmdInicio";
-            this.cmdInicio.Size = new System.Drawing.Size(142, 53);
+            this.cmdInicio.Size = new System.Drawing.Size(222, 53);
             this.cmdInicio.TabIndex = 4;
             this.cmdInicio.Text = "Inicio";
             this.cmdInicio.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@
             this.lblEjeX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEjeX.AutoSize = true;
             this.lblEjeX.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEjeX.Location = new System.Drawing.Point(632, 35);
+            this.lblEjeX.Location = new System.Drawing.Point(624, 15);
             this.lblEjeX.Name = "lblEjeX";
             this.lblEjeX.Size = new System.Drawing.Size(25, 25);
             this.lblEjeX.TabIndex = 5;
@@ -73,7 +73,7 @@
             this.lblEjeY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEjeY.AutoSize = true;
             this.lblEjeY.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEjeY.Location = new System.Drawing.Point(632, 86);
+            this.lblEjeY.Location = new System.Drawing.Point(624, 58);
             this.lblEjeY.Name = "lblEjeY";
             this.lblEjeY.Size = new System.Drawing.Size(23, 26);
             this.lblEjeY.TabIndex = 6;

@@ -180,7 +180,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblUsuario);
             this.Name = "fmrInicio";
-            this.Text = "fmrInicio";
+            this.Text = "Inicio";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.fmrInicio_Load);
             this.groupBox1.ResumeLayout(false);
