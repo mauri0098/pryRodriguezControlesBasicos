@@ -12,6 +12,7 @@ namespace pryRodriguezControlesBasicos
 {
     public partial class fmrPrincipal : Form
     {
+        Random rnd = new Random();
         public fmrPrincipal()
         {
             InitializeComponent();
@@ -21,12 +22,28 @@ namespace pryRodriguezControlesBasicos
         {
             fmrInicio frm = new fmrInicio();
             frm.ShowDialog();
+
         }
 
-        private void cmdInicio_MouseMove(object sender, MouseEventArgs e)
+        private void fmrPrincipal_MouseMove(object sender, MouseEventArgs e)
         {
             lblEjeX.Text = e.X.ToString();
             lblEjeY.Text = e.Y.ToString();
+        }
+
+        private void fmrPrincipal_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void fmrPrincipal_Click(object sender, EventArgs e)
+        {
+            lblBienvenidos.Visible = true;
+        }
+
+        private void lblBienvenidos_MouseEnter(object sender, EventArgs e)
+        {
+            lblBienvenidos.Location = new Point(rnd.Next(10, 300), rnd.Next(10, 400));
         }
     }
 }
