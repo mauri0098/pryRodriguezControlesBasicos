@@ -55,7 +55,7 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(72, 25);
+            this.txtUsuario.Location = new System.Drawing.Point(63, 21);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(100, 20);
             this.txtUsuario.TabIndex = 1;
@@ -150,7 +150,7 @@
             // 
             this.cmdSeleccionar.Location = new System.Drawing.Point(12, 275);
             this.cmdSeleccionar.Name = "cmdSeleccionar";
-            this.cmdSeleccionar.Size = new System.Drawing.Size(75, 23);
+            this.cmdSeleccionar.Size = new System.Drawing.Size(98, 23);
             this.cmdSeleccionar.TabIndex = 10;
             this.cmdSeleccionar.Text = "Seleccionar";
             this.cmdSeleccionar.UseVisualStyleBackColor = true;
