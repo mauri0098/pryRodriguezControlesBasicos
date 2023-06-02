@@ -37,10 +37,10 @@
             // lblBienvenidos
             // 
             this.lblBienvenidos.AutoSize = true;
-            this.lblBienvenidos.Font = new System.Drawing.Font("Microsoft Yi Baiti", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBienvenidos.Location = new System.Drawing.Point(104, 35);
+            this.lblBienvenidos.Font = new System.Drawing.Font("Calibri", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenidos.Location = new System.Drawing.Point(40, 15);
             this.lblBienvenidos.Name = "lblBienvenidos";
-            this.lblBienvenidos.Size = new System.Drawing.Size(325, 64);
+            this.lblBienvenidos.Size = new System.Drawing.Size(559, 117);
             this.lblBienvenidos.TabIndex = 3;
             this.lblBienvenidos.Text = "Bienvenidos ";
             this.lblBienvenidos.Visible = false;
@@ -48,10 +48,10 @@
             // 
             // cmdInicio
             // 
-            this.cmdInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdInicio.Location = new System.Drawing.Point(223, 162);
+            this.cmdInicio.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdInicio.Location = new System.Drawing.Point(247, 162);
             this.cmdInicio.Name = "cmdInicio";
-            this.cmdInicio.Size = new System.Drawing.Size(145, 47);
+            this.cmdInicio.Size = new System.Drawing.Size(142, 53);
             this.cmdInicio.TabIndex = 4;
             this.cmdInicio.Text = "Inicio";
             this.cmdInicio.UseVisualStyleBackColor = true;
@@ -61,10 +61,10 @@
             // 
             this.lblEjeX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEjeX.AutoSize = true;
-            this.lblEjeX.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEjeX.Location = new System.Drawing.Point(753, 35);
+            this.lblEjeX.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEjeX.Location = new System.Drawing.Point(632, 35);
             this.lblEjeX.Name = "lblEjeX";
-            this.lblEjeX.Size = new System.Drawing.Size(24, 24);
+            this.lblEjeX.Size = new System.Drawing.Size(25, 25);
             this.lblEjeX.TabIndex = 5;
             this.lblEjeX.Text = "X";
             // 
@@ -72,10 +72,10 @@
             // 
             this.lblEjeY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEjeY.AutoSize = true;
-            this.lblEjeY.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEjeY.Location = new System.Drawing.Point(753, 86);
+            this.lblEjeY.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEjeY.Location = new System.Drawing.Point(632, 86);
             this.lblEjeY.Name = "lblEjeY";
-            this.lblEjeY.Size = new System.Drawing.Size(22, 24);
+            this.lblEjeY.Size = new System.Drawing.Size(23, 26);
             this.lblEjeY.TabIndex = 6;
             this.lblEjeY.Text = "Y";
             // 
@@ -83,13 +83,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(679, 416);
             this.Controls.Add(this.lblEjeY);
             this.Controls.Add(this.lblEjeX);
             this.Controls.Add(this.cmdInicio);
             this.Controls.Add(this.lblBienvenidos);
             this.Name = "fmrPrincipal";
-            this.Text = "fmrPrincipal";
+            this.Text = "Principal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Click += new System.EventHandler(this.fmrPrincipal_Click);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.fmrPrincipal_MouseClick);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.fmrPrincipal_MouseMove);
