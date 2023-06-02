@@ -37,7 +37,7 @@ namespace pryRodriguezControlesBasicos
 
         private void frmTitulodelaVentana_Click(object sender, EventArgs e)
         {
-         lblBienvenidos.Visible = true;
+          lblBienvenidos.Visible = true;
         }
 
         private void frmTitulodelaVentana_MouseEnter(object sender, EventArgs e)

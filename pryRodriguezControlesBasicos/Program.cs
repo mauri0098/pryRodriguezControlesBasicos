@@ -16,7 +16,7 @@ namespace pryRodriguezControlesBasicos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPrincipla());
+            Application.Run(new fmrPrincipal());
         }
     }
 }
