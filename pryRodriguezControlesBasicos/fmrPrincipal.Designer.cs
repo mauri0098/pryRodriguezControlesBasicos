@@ -50,7 +50,7 @@
             // 
             this.lblBienvenidos.AutoSize = true;
             this.lblBienvenidos.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBienvenidos.Location = new System.Drawing.Point(56, 61);
+            this.lblBienvenidos.Location = new System.Drawing.Point(59, 61);
             this.lblBienvenidos.Name = "lblBienvenidos";
             this.lblBienvenidos.Size = new System.Drawing.Size(423, 64);
             this.lblBienvenidos.TabIndex = 5;
