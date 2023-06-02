@@ -38,7 +38,7 @@
             // 
             this.lblBienvenidos.AutoSize = true;
             this.lblBienvenidos.Font = new System.Drawing.Font("Microsoft Yi Baiti", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBienvenidos.Location = new System.Drawing.Point(126, 37);
+            this.lblBienvenidos.Location = new System.Drawing.Point(143, 35);
             this.lblBienvenidos.Name = "lblBienvenidos";
             this.lblBienvenidos.Size = new System.Drawing.Size(325, 64);
             this.lblBienvenidos.TabIndex = 3;
