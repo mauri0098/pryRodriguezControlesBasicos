@@ -66,7 +66,7 @@
             // cmdAsignar
             // 
             this.cmdAsignar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAsignar.Location = new System.Drawing.Point(172, 138);
+            this.cmdAsignar.Location = new System.Drawing.Point(181, 138);
             this.cmdAsignar.Name = "cmdAsignar";
             this.cmdAsignar.Size = new System.Drawing.Size(105, 25);
             this.cmdAsignar.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             this.optAzul.AutoSize = true;
             this.optAzul.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optAzul.Location = new System.Drawing.Point(149, 103);
+            this.optAzul.Location = new System.Drawing.Point(168, 103);
             this.optAzul.Name = "optAzul";
             this.optAzul.Size = new System.Drawing.Size(48, 19);
             this.optAzul.TabIndex = 3;
@@ -90,7 +90,7 @@
             // 
             this.optRojo.AutoSize = true;
             this.optRojo.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optRojo.Location = new System.Drawing.Point(227, 103);
+            this.optRojo.Location = new System.Drawing.Point(236, 103);
             this.optRojo.Name = "optRojo";
             this.optRojo.Size = new System.Drawing.Size(50, 19);
             this.optRojo.TabIndex = 4;
@@ -157,9 +157,9 @@
             // cmdSeleccionar
             // 
             this.cmdSeleccionar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdSeleccionar.Location = new System.Drawing.Point(143, 290);
+            this.cmdSeleccionar.Location = new System.Drawing.Point(143, 289);
             this.cmdSeleccionar.Name = "cmdSeleccionar";
-            this.cmdSeleccionar.Size = new System.Drawing.Size(97, 21);
+            this.cmdSeleccionar.Size = new System.Drawing.Size(97, 23);
             this.cmdSeleccionar.TabIndex = 10;
             this.cmdSeleccionar.Text = "Seleccionar";
             this.cmdSeleccionar.UseVisualStyleBackColor = true;

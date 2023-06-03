@@ -85,8 +85,11 @@ namespace pryRodriguezControlesBasicos
 
 
             }
-            
-            
+            if (chkMostaza.Checked == true || chkPicante.Checked == true || chkMayonesa.Checked == true)
+            {
+                lblEscribir.Text = textoConcatenar;
+            }
+
             //agregar un item al combobox - lista
 
             lstAderezos.Items.Add(textoConcatenar);
