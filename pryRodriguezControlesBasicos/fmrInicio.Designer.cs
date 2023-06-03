@@ -57,7 +57,7 @@
             // txtTexto
             // 
             this.txtTexto.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTexto.Location = new System.Drawing.Point(143, 29);
+            this.txtTexto.Location = new System.Drawing.Point(143, 28);
             this.txtTexto.Name = "txtTexto";
             this.txtTexto.Size = new System.Drawing.Size(181, 26);
             this.txtTexto.TabIndex = 1;
