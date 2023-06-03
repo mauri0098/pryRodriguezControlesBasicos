@@ -147,7 +147,7 @@
             // 
             this.lblEscribir.AutoSize = true;
             this.lblEscribir.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEscribir.Location = new System.Drawing.Point(262, 293);
+            this.lblEscribir.Location = new System.Drawing.Point(146, 314);
             this.lblEscribir.Name = "lblEscribir";
             this.lblEscribir.Size = new System.Drawing.Size(53, 18);
             this.lblEscribir.TabIndex = 9;
@@ -157,9 +157,9 @@
             // cmdSeleccionar
             // 
             this.cmdSeleccionar.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdSeleccionar.Location = new System.Drawing.Point(143, 289);
+            this.cmdSeleccionar.Location = new System.Drawing.Point(143, 275);
             this.cmdSeleccionar.Name = "cmdSeleccionar";
-            this.cmdSeleccionar.Size = new System.Drawing.Size(97, 23);
+            this.cmdSeleccionar.Size = new System.Drawing.Size(97, 27);
             this.cmdSeleccionar.TabIndex = 10;
             this.cmdSeleccionar.Text = "Seleccionar";
             this.cmdSeleccionar.UseVisualStyleBackColor = true;
@@ -167,11 +167,11 @@
             // 
             // lstAderezos
             // 
-            this.lstAderezos.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstAderezos.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstAderezos.FormattingEnabled = true;
-            this.lstAderezos.Location = new System.Drawing.Point(143, 330);
+            this.lstAderezos.Location = new System.Drawing.Point(143, 345);
             this.lstAderezos.Name = "lstAderezos";
-            this.lstAderezos.Size = new System.Drawing.Size(181, 26);
+            this.lstAderezos.Size = new System.Drawing.Size(181, 23);
             this.lstAderezos.TabIndex = 12;
             this.lstAderezos.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
