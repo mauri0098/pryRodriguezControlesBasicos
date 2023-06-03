@@ -46,7 +46,7 @@
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(12, 28);
+            this.lblUsuario.Location = new System.Drawing.Point(146, 48);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(43, 13);
             this.lblUsuario.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(63, 21);
+            this.txtUsuario.Location = new System.Drawing.Point(42, 12);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(100, 20);
             this.txtUsuario.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             // cmdAsignar
             // 
-            this.cmdAsignar.Location = new System.Drawing.Point(138, 72);
+            this.cmdAsignar.Location = new System.Drawing.Point(160, 88);
             this.cmdAsignar.Name = "cmdAsignar";
             this.cmdAsignar.Size = new System.Drawing.Size(75, 23);
             this.cmdAsignar.TabIndex = 2;
@@ -74,7 +74,7 @@
             // optAzul
             // 
             this.optAzul.AutoSize = true;
-            this.optAzul.Location = new System.Drawing.Point(12, 75);
+            this.optAzul.Location = new System.Drawing.Point(18, 94);
             this.optAzul.Name = "optAzul";
             this.optAzul.Size = new System.Drawing.Size(45, 17);
             this.optAzul.TabIndex = 3;
@@ -85,13 +85,14 @@
             // optRojo
             // 
             this.optRojo.AutoSize = true;
-            this.optRojo.Location = new System.Drawing.Point(63, 75);
+            this.optRojo.Location = new System.Drawing.Point(95, 94);
             this.optRojo.Name = "optRojo";
             this.optRojo.Size = new System.Drawing.Size(47, 17);
             this.optRojo.TabIndex = 4;
             this.optRojo.TabStop = true;
             this.optRojo.Text = "Rojo";
             this.optRojo.UseVisualStyleBackColor = true;
+            this.optRojo.CheckedChanged += new System.EventHandler(this.optRojo_CheckedChanged);
             // 
             // groupBox1
             // 

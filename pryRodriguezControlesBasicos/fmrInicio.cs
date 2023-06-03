@@ -77,30 +77,19 @@ namespace pryRodriguezControlesBasicos
                 textoConcatenar = textoConcatenar + " Mayonesa ";
             }
 
-
-            
-           
-
             if (chkMostaza.Checked == true)
             {
                 lblEscribir.Text = "Mostaza ";
                 textoConcatenar = textoConcatenar  + " Mostaza ";
 
-                //agregar un item al combobox - lista
-
-                cboAdiciona.Items.Add(textoConcatenar);
 
 
-
-
-
-          
-            
-            
-            
-           
             }
-        } 
+            
+            //agregar un item al combobox - lista
+
+            cboAdiciona.Items.Add(textoConcatenar);
+        }  
 
        
           
@@ -119,6 +108,11 @@ namespace pryRodriguezControlesBasicos
         }
 
         private void fmrInicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void optRojo_CheckedChanged(object sender, EventArgs e)
         {
 
         }
