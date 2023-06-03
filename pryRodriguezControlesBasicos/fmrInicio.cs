@@ -24,20 +24,20 @@ namespace pryRodriguezControlesBasicos
 
         private void txtUsuario_TextChanged(object sender, EventArgs e)
         {
-            lblUsuario.Text = txtUsuario.Text;
+            lbltexto.Text = txtTexto.Text;
         }
 
         private void cmdAsignar_Click(object sender, EventArgs e)
         {
             if (optAzul.Checked == true)
             {
-                lblUsuario.ForeColor = Color.Blue;
-                txtUsuario.ForeColor = Color.Blue;
+                lbltexto.ForeColor = Color.Blue;
+                txtTexto.ForeColor = Color.Blue;
             }
             if (optRojo.Checked == true)
             {
-                lblUsuario.ForeColor = Color.Red;
-                txtUsuario.ForeColor = Color.Red;
+                lbltexto.ForeColor = Color.Red;
+                txtTexto.ForeColor = Color.Red;
 
             }
         }
@@ -85,6 +85,7 @@ namespace pryRodriguezControlesBasicos
 
 
             }
+            
             
             //agregar un item al combobox - lista
 

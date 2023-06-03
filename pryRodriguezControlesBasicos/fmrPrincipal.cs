@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace pryRodriguezControlesBasicos
 {
-    public partial class fmrPrincipal : Form
+    public partial class frmPrincipal : Form
     {
         Random rnd = new Random();
-        public fmrPrincipal()
+        public frmPrincipal()
         {
             InitializeComponent();
         }
@@ -27,8 +27,8 @@ namespace pryRodriguezControlesBasicos
 
         private void fmrPrincipal_MouseMove(object sender, MouseEventArgs e)
         {
-            lblEjeX.Text = e.X.ToString();
-            lblEjeY.Text = e.Y.ToString();
+            IblEjeX.Text = e.X.ToString();
+            IblEjeY.Text = e.Y.ToString();
         }
 
         private void fmrPrincipal_MouseClick(object sender, MouseEventArgs e)

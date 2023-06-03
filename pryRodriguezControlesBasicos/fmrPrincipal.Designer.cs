@@ -1,6 +1,6 @@
 ﻿namespace pryRodriguezControlesBasicos
 {
-    partial class fmrPrincipal
+    partial class frmPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -30,8 +30,8 @@
         {
             this.lblBienvenidos = new System.Windows.Forms.Label();
             this.cmdInicio = new System.Windows.Forms.Button();
-            this.lblEjeX = new System.Windows.Forms.Label();
-            this.lblEjeY = new System.Windows.Forms.Label();
+            this.IblEjeX = new System.Windows.Forms.Label();
+            this.IblEjeY = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblBienvenidos
@@ -57,38 +57,38 @@
             this.cmdInicio.UseVisualStyleBackColor = true;
             this.cmdInicio.Click += new System.EventHandler(this.cmdInicio_Click);
             // 
-            // lblEjeX
+            // IblEjeX
             // 
-            this.lblEjeX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblEjeX.AutoSize = true;
-            this.lblEjeX.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEjeX.Location = new System.Drawing.Point(624, 15);
-            this.lblEjeX.Name = "lblEjeX";
-            this.lblEjeX.Size = new System.Drawing.Size(25, 25);
-            this.lblEjeX.TabIndex = 5;
-            this.lblEjeX.Text = "X";
+            this.IblEjeX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.IblEjeX.AutoSize = true;
+            this.IblEjeX.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblEjeX.Location = new System.Drawing.Point(624, 15);
+            this.IblEjeX.Name = "IblEjeX";
+            this.IblEjeX.Size = new System.Drawing.Size(25, 25);
+            this.IblEjeX.TabIndex = 5;
+            this.IblEjeX.Text = "X";
             // 
-            // lblEjeY
+            // IblEjeY
             // 
-            this.lblEjeY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblEjeY.AutoSize = true;
-            this.lblEjeY.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEjeY.Location = new System.Drawing.Point(624, 58);
-            this.lblEjeY.Name = "lblEjeY";
-            this.lblEjeY.Size = new System.Drawing.Size(23, 26);
-            this.lblEjeY.TabIndex = 6;
-            this.lblEjeY.Text = "Y";
+            this.IblEjeY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.IblEjeY.AutoSize = true;
+            this.IblEjeY.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblEjeY.Location = new System.Drawing.Point(624, 58);
+            this.IblEjeY.Name = "IblEjeY";
+            this.IblEjeY.Size = new System.Drawing.Size(23, 26);
+            this.IblEjeY.TabIndex = 6;
+            this.IblEjeY.Text = "Y";
             // 
-            // fmrPrincipal
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(679, 416);
-            this.Controls.Add(this.lblEjeY);
-            this.Controls.Add(this.lblEjeX);
+            this.Controls.Add(this.IblEjeY);
+            this.Controls.Add(this.IblEjeX);
             this.Controls.Add(this.cmdInicio);
             this.Controls.Add(this.lblBienvenidos);
-            this.Name = "fmrPrincipal";
+            this.Name = "frmPrincipal";
             this.Text = "Principal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Click += new System.EventHandler(this.fmrPrincipal_Click);
@@ -103,7 +103,7 @@
 
         private System.Windows.Forms.Label lblBienvenidos;
         private System.Windows.Forms.Button cmdInicio;
-        private System.Windows.Forms.Label lblEjeX;
-        private System.Windows.Forms.Label lblEjeY;
+        private System.Windows.Forms.Label IblEjeX;
+        private System.Windows.Forms.Label IblEjeY;
     }
 }
