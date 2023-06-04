@@ -66,8 +66,8 @@ namespace pryRodriguezControlesBasicos
 
             if (chkPicante.Checked == true)
             {
-                lblEscribir.Text = "picante ";
-                textoConcatenar = textoConcatenar + "picante ";
+                lblEscribir.Text = "Picante ";
+                textoConcatenar = textoConcatenar + "Picante ";
             }
 
 
