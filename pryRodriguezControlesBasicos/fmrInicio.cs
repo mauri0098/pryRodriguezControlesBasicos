@@ -33,12 +33,13 @@ namespace pryRodriguezControlesBasicos
             {
                 Ibltexto.ForeColor = Color.Blue;
                 txtTexto.ForeColor = Color.Blue;
+                lblEscribir.ForeColor = Color.Blue;
             }
             if (optRojo.Checked == true)
             {
                 Ibltexto.ForeColor = Color.Red;
                 txtTexto.ForeColor = Color.Red;
-
+                lblEscribir .ForeColor = Color.Red;
             }
         }
 
