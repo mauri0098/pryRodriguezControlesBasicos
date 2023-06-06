@@ -20,7 +20,7 @@ namespace pryRodriguezControlesBasicos
 
         private void cmdInicio_Click(object sender, EventArgs e)
         {
-            fmrInicio frm = new fmrInicio();
+            frmInicio frm = new frmInicio();
             frm.ShowDialog();
 
         }

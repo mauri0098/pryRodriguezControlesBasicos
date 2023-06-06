@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryRodriguezControlesBasicos
 {
-    public partial class fmrInicio : Form
+    public partial class frmInicio : Form
     {
-        public fmrInicio()
+        public frmInicio()
         {
             InitializeComponent();
         }

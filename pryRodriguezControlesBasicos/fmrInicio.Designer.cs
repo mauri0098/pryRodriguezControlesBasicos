@@ -1,6 +1,6 @@
 ﻿namespace pryRodriguezControlesBasicos
 {
-    partial class fmrInicio
+    partial class frmInicio
     {
         /// <summary>
         /// Required designer variable.
@@ -175,7 +175,7 @@
             this.lstAderezos.TabIndex = 12;
             this.lstAderezos.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // fmrInicio
+            // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -189,7 +189,7 @@
             this.Controls.Add(this.cmdAsignar);
             this.Controls.Add(this.txtTexto);
             this.Controls.Add(this.Ibltexto);
-            this.Name = "fmrInicio";
+            this.Name = "frmInicio";
             this.Text = "Inicio";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.fmrInicio_Load);
